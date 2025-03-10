@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohay - Autonomous AI Agent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Sohay</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#github">GitHub</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Meet Your New <span class="highlight">Autonomous</span> AI Assistant</h1>
+                <p>Sohay is an advanced AI agent that works independently on your tasks while you focus on what matters most.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn primary">Explore Features</a>
+                    <a href="#github" class="btn secondary">View on GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1420&q=80" alt="Sohay AI Assistant">
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Autonomous Agent Capabilities</h2>
+            <p class="section-subtitle">Sohay works proactively to accomplish your goals</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Free Web Search</h3>
+                    <p>Gather information from the web without requiring API keys using our built-in search capabilities.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Enhanced Planning</h3>
+                    <p>Context-aware planning that creates detailed execution strategies based on task type and complexity.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3>Task Dependencies</h3>
+                    <p>Handle complex workflows with tasks that depend on the completion of other tasks.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Long-term Memory</h3>
+                    <p>Remember insights and information across sessions to continuously improve performance.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <h3>Task Scheduling</h3>
+                    <p>Schedule recurring tasks that run on your preferred cadence (minutes, hourly, daily, weekly, monthly).</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Browser Automation</h3>
+                    <p>Control web browsers to interact with websites for research, data gathering, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="capabilities" class="capabilities">
+        <div class="container">
+            <h2 class="section-title">How Sohay Works</h2>
+            <p class="section-subtitle">A peek inside the autonomous workflow</p>
+            
+            <div class="workflow">
+                <div class="workflow-step">
+                    <div class="workflow-number">1</div>
+                    <h3>Task Assignment</h3>
+                    <p>Add tasks with priorities, deadlines, dependencies, and scheduling options</p>
+                </div>
+                
+                <div class="workflow-step">
+                    <div class="workflow-number">2</div>
+                    <h3>Smart Planning</h3>
+                    <p>Sohay generates a detailed, context-aware plan for executing the task</p>
+                </div>
+                
+                <div class="workflow-step">
+                    <div class="workflow-number">3</div>
+                    <h3>Autonomous Execution</h3>
+                    <p>The agent works through plan steps using web search, browser automation, and other tools</p>
+                </div>
+                
+                <div class="workflow-step">
+                    <div class="workflow-number">4</div>
+                    <h3>Reflection & Learning</h3>
+                    <p>Sohay analyzes performance and stores insights for future improvements</p>
+                </div>
+            </div>
+            
+            <div class="code-example">
+                <h3>Easy to use commands:</h3>
+                <pre><code>
+# Add a task
+You: add task Research the latest developments in quantum computing priority:3
+
+# Set dependencies between tasks
+You: add task Write a report on quantum technologies depends:1 
+
+# Create a scheduled task
+You: add task Check for security updates schedule:daily:1
+
+# Check progress
+You: list tasks
+
+# Check agent's memory
+You: memory status
+                </code></pre>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">See Sohay in Action</h2>
+            <p class="section-subtitle">Watch the autonomous agent complete tasks</p>
+            
+            <div class="demo-container">
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-button red"></div>
+                        <div class="terminal-button yellow"></div>
+                        <div class="terminal-button green"></div>
+                        <div class="terminal-title">Sohay Autonomous Agent Demo</div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="line">$ python demo_enhanced_agent.py</div>
+                        <div class="line">======================================</div>
+                        <div class="line">Sohay Enhanced Autonomous Agent Demo</div>
+                        <div class="line">======================================</div>
+                        <div class="line">&nbsp;</div>
+                        <div class="line">This demo will showcase Sohay's capabilities:</div>
+                        <div class="line">1. Free web search (no API key required)</div>
+                        <div class="line">2. Enhanced planning with context awareness</div>
+                        <div class="line">3. Task dependencies</div>
+                        <div class="line">4. Long-term memory</div>
+                        <div class="line">5. Task scheduling</div>
+                        <div class="line">&nbsp;</div>
+                        <div class="line">Initializing Sohay and creating autonomous agent...</div>
+                        <div class="line">Autonomous mode enabled.</div>
+                        <div class="line">&nbsp;</div>
+                        <div class="line typing">Creating a research task...</div>
+                        <div class="line">Task added: 'Research quantum computing' with priority 3</div>
+                        <div class="line">&nbsp;</div>
+                        <div class="line">Generating enhanced plan...</div>
+                        <div class="line">Generated plan with context awareness:</div>
+                        <div class="line">  Step 1: Research information related to 'quantum computing'</div>
+                        <div class="line">  Step 2: Find authoritative sources and expert opinions</div>
+                        <div class="line">  Step 3: Gather data and statistics on recent developments</div>
+                        <div class="line">  Step 4: Analyze information for patterns and insights</div>
+                        <div class="line">  Step 5: Create a comprehensive summary of findings</div>
+                        <div class="line">&nbsp;</div>
+                        <div class="line">Executing step 1/5: Research information...</div>
+                        <div class="line">Search completed successfully.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github" class="github">
+        <div class="container">
+            <h2 class="section-title">Get Started with Sohay</h2>
+            <p class="section-subtitle">Open source and ready for you to use</p>
+            
+            <div class="github-card">
+                <div class="github-info">
+                    <h3>Sohay on GitHub</h3>
+                    <p>Sohay is an open-source project that you can use, modify, and contribute to.</p>
+                    <ul class="github-features">
+                        <li><i class="fas fa-check-circle"></i> Detailed documentation</li>
+                        <li><i class="fas fa-check-circle"></i> Easy installation process</li>
+                        <li><i class="fas fa-check-circle"></i> Active development</li>
+                        <li><i class="fas fa-check-circle"></i> MIT License</li>
+                    </ul>
+                    <a href="https://github.com/yourusername/sohay" class="btn primary github-btn">
+                        <i class="fab fa-github"></i> View on GitHub
+                    </a>
+                </div>
+                <div class="github-stats">
+                    <div class="stat">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Key Features</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">Python</div>
+                        <div class="stat-label">Language</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">MIT</div>
+                        <div class="stat-label">License</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="installation">
+                <h3>Quick Installation</h3>
+                <pre><code>
+# Clone the repository
+git clone https://github.com/yourusername/sohay.git
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Sohay
+python sohay_runner.py
+                </code></pre>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Sohay</h2>
+                    <p>Your Autonomous AI Assistant</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#capabilities">Capabilities</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#github">GitHub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sohay AI Assistant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
